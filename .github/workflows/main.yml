@@ -21,7 +21,7 @@ dotnet-version: 6.0.x
 
 # Publishes the Blazor project to the release folder
 – name: Publish .NET Core Project
-run: dotnet publish UF_Website.csproj -c Release -o release –nologo
+run: dotnet publish UF_Website.csproj -c Release -o release
 
 # Changes the base tag in index.html from ‘/’ to ‘BlazorGitHubPagesDemo’ to match the GitHub Pages repository subdirectory
 – name: Change base-tag in index.html from / to UF_Website
